@@ -117,4 +117,4 @@ with plt.style.context(mpl_style_url):
     plt.ylabel('Date follower joined Twitter')
     plt.savefig('{}-follower-factory.png'.format(USER_TO_ANALYZE))
 
-print('Follower Factory visualization saved to {}'.format(os.getcwd()))
+print('Follower Factory visualization saved to {}'.format(os.getcwd())
